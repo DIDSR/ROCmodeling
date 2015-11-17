@@ -1,4 +1,5 @@
 R CMD Rd2pdf TwoSampleOrdinalRegressionModels
+mkdir -p TwoSampleOrdinalRegressionModels/inst/doc
 mv TwoSampleOrdinalRegressionModels.pdf TwoSampleOrdinalRegressionModels/inst/doc/
 
 R CMD build TwoSampleOrdinalRegressionModels
