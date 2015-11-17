@@ -1,0 +1,15 @@
+Package: TwoSampleOrdinalRegressionModels
+Version: 0.1
+Date: 2015-10-31
+Title: Two-Sample Ordinal Regression Models
+Authors@R: c(person("Frank", "Samuelson", role = c("aut", "cre"),
+		     email = "frank.samuelson@fda.hhs.gov"))
+Author: Frank Samuelson [aut, cre]
+Maintainer: Frank Samuelson <frank.samuelson@fda.hhs.gov>
+Depends: R
+Description: This package provides functions that perform
+  model regression on two samples of data.  This is useful
+  for performing ROC analysis.  Routines calculate goodness of
+  fit criteria, ROC curves, and area under those curves, and
+  their approximate uncertainties.  It is slow, but robust.
+License: file LICENSE

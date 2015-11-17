@@ -1,0 +1,5 @@
+R CMD Rd2pdf TwoSampleOrdinalRegressionModels
+mv TwoSampleOrdinalRegressionModels.pdf TwoSampleOrdinalRegressionModels/inst/doc/
+
+R CMD build TwoSampleOrdinalRegressionModels
+
