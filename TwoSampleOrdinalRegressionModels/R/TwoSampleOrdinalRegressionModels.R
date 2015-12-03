@@ -135,7 +135,7 @@ tablit=function(ll) {
 ##  Frank:  Combine adjacent bins for which there are 0 entries in the
 ##  the other bins, i.e. 1st concatenate runs, then concatentate other stuff.
 
-tablit2=function(ll,binlim=11,minbinlim=2) {  
+tablit2=function(ll,binlim=12,minbinlim=2) {  
    ## Take tables of category frequencies, and rebin
    ## the data into no more than binlim bins
    ## This can make likelihood maximization faster and more reliable.

@@ -193,7 +193,9 @@ TwoSampleOrdinalRegression(x1=NA, x0=NA, counts1=NA, counts0=NA,
   include the number of
   latent modeled thresholds, which are not full free parameters
   in the usual sense.  This number of thresholds
-  may be different in this program  than it is in others.    
+  may be different in this program  than it is in others.
+  Currently the number of latent modeled thresholds
+  is at most 12, though that can be easily changed in the code.
 
 }
 

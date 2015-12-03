@@ -1,3 +1,5 @@
+
+## This file contains the commands that will build the R package.
 R CMD Rd2pdf TwoSampleOrdinalRegressionModels
 mkdir -p TwoSampleOrdinalRegressionModels/inst/doc
 mv TwoSampleOrdinalRegressionModels.pdf TwoSampleOrdinalRegressionModels/inst/doc/
